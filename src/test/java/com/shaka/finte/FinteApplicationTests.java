@@ -1,0 +1,13 @@
+package com.shaka.finance;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class FinteApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}
