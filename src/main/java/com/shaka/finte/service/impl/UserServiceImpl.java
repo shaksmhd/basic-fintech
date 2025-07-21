@@ -76,6 +76,7 @@ public class UserServiceImpl implements UserService {
             }
         } while (accountRepository.findByAccountNumber(accountNumber.toString()).isPresent());
 
+        log.info("Generated account number: {}", accountNumber);
         return accountNumber.toString();
     }
 }
